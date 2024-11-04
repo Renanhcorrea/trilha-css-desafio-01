@@ -1,0 +1,50 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700&display=swap');
+/*
+body {
+    background-color: var(--cor-escuro);
+    width: 1440px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+*/
+
+.banner{
+    height: 605px;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(49, 168, 221, .2), rgba(0, 0, 0, .8)), url('../images/banner.png');
+    border-bottom: 1px solid rgb(51, 168, 219) ;
+}
+
+.banner-content {
+    padding-top: 83px;
+    margin: 0 auto;
+    text-align: center;
+    width: 510px;
+    height: 393px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 268px;
+    height: 268px;
+    background: #00000033;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header p {
+    width: 510px;
+    height: 46px;
+    color: red;
+}
